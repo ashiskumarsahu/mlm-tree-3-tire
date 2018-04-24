@@ -1,0 +1,80 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	overflow-x:hidden;
+}
+#tree table{
+	width:100%;
+}
+#tree table td{
+	text-align:center;
+	vertical-align:top;
+}
+#tree table td .profile{
+	width:50px;
+	height:50px;
+	border-radius:50%;
+	border:2px solid #ccc;
+	padding:2px;
+}
+#tree table td a{
+	color:#000;
+	text-decoration:none;
+}
+#tree table td .info{
+	position:relative;
+	margin:0 auto;
+	display:table;
+}
+#tree table td .info h4,#tree table td .info p{
+	margin:0;
+}
+#tree table td .info h4{
+	font-size:13px;
+}
+#tree table td .info p{
+	color:#222;
+	font-size:12px;
+}
+#tree table .divider{
+	width:68%;
+	height:30px;
+	margin-top:15px;
+}
+
+/*Popup*/
+#tree table td .popup{
+	position:absolute;
+	display:block;
+	z-index:9;
+	left:-28%;
+	display:none;
+}
+#tree table td .popup table{
+	position:absolute;
+	background:#D6FFFE;
+	border:2px solid #222;
+	border-radius:2px;
+	z-index:9;
+}
+#tree table td .info .popup table td{
+	font-size:12px;
+	padding:1px 2px;
+	white-space: nowrap;
+	text-align:left;
+	padding:2px;
+	border:1px solid #aaa;
+}
+#tree table td .info .popup table .hl1,#tree table td .info .popup table .hl2{
+	font-weight:bold;
+	text-align:center;
+}
+#tree table td .info .popup table .hl1{
+	color:#000;
+	background:#fff;
+}
+#tree table td .info .popup table .hl2{
+	color:#000;
+}
